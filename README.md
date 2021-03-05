@@ -36,13 +36,13 @@ source ~/.bashrc
 
 #### Descomprimir el paquete en la carpeta deseada
 ```bash
-unzip Descargas/openjfx-15.0.1_linux-x64_bin-sdk.zip  -d /usr/lib/
+sudo unzip Descargas/openjfx-15.0.1_linux-x64_bin-sdk.zip  -d /usr/lib/
 ```
 #### Configurar las variables de entorno
 ```bash
 cat >> ~/.bashrc <<EOL
 # JavaFX HOME
-export PATH_TO_FX=/usr/lib/javafx-sdk-15.0.1
+export JFX_HOME=/usr/lib/javafx-sdk-15.0.1
 EOL
 ```
 
