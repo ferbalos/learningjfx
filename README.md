@@ -22,8 +22,8 @@ configuración personal `.bashrc`.
 ```bash
 cat >> ~/.bashrc <<EOL
 # Java HOME
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export JRE_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
+export JRE_HOME=/usr/lib/jvm/java-11-openjdk-amd64/jre
 EOL
 ```
 Y se recarga la configuración para tenga efecto:
